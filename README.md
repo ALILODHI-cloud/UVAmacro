@@ -1,9 +1,8 @@
 
 
 
-[View the Jupyter Notebook](https://github.com/ALILODHI-cloud/UVAmacro.github.io/blob/main/forwards1/analysismain2.ipynb)
+[View the code that generated this analysis (Python Juypter Notebooks)](https://github.com/ALILODHI-cloud/UVAmacro.github.io/blob/main/forwards1/analysismain2.ipynb)
 
-forwards1/analysismain2.ipynb
 
 # Fair value analysis of the 2s10s curve 
 
