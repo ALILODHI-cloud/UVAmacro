@@ -1,22 +1,14 @@
 # UVAmacro.github.io
 
----
-layout: post
-title: "Introduction to My Blog"
-date: 2024-12-18 10:00:00 -0500
-categories: [blog, introduction]
-tags: [UVA, macroeconomics, first post]
----
 
-# Welcome to My Blog!
 
-Hello, and welcome to my new blog on **UVAmacro.github.io**! I'm excited to share my thoughts on macroeconomics, financial markets, and other topics related to economics at UVA.
+# 12/12/2024 
 
-In this first post, I wanted to introduce the purpose of this blog and what you can expect in future posts.
 
-## Why Start This Blog?
 
-I believe macroeconomics is an exciting and rapidly evolving field, and I want to create a space to explore key topics in this domain, share my analyses, and connect with others who share a similar interest. I'll be posting regularly on topics such as:
+## Section 1: Fair value analysis of the 2s10s curve
+
+In this note we consider a regression of the 2s/10s curve on the 1y1y swap rate, 5y5y breakeven rate and BoFAML MOVE Index. The sample period runs from 2023-12-06 to 2024-12-06. 
 
 - Inflation and monetary policy
 - Yield curves and interest rates
