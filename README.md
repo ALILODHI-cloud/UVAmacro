@@ -19,7 +19,12 @@ Figure 1 encapsulates the narrative volatility that has characterized this year:
 
 Figure 2 shows a clear steepening of the 2s10s, relative to fair value, over the shaded sample. Indeed, over that sample, the curve outperforms its beta to the 1y1y swap rate (Figure 3).
 
+
+
 ![Alt text](forwards1/figures/figure2.jpg)
+
+
+
 ![Alt text](forwards1/figures/figure3.jpg)
 
 Increases in the 1y1y rate are associated with steepening over the shaded sample, but flattening over the full sample. The change in this beta can be decomposed into changes in the betas of the 2yr and 10yr yields to the 1y1y rate, across the full and restricted samples (Figure 4).
