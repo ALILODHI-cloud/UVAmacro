@@ -35,7 +35,7 @@ The 2yr yield underperforms its beta to the 1y1y rate over the shaded sample; fo
 
 In this note we consider positioning for high vol \ high term premia environments using butterfly spreads. All regressions are over the past three years of data.
 
-### Straddle swaption on the 2s5s10s swap butterfly
+### Straddle swaption on a 2s5s10s swap butterfly
 
 If indeed the 5yr yield captures the full spectrum of rate expectations (short, medium and long-run), then high vol environments should see large oscillations in the 5s relative to the 2s and 10s (in particular, in the quantity 5s – (10s+2s)/2) (Figure 6). This recommends a straddle swaption on a 2s5s10s butterfly swap (that is, buying both the right to enter the swap as a payer of the 5s, and the right to enter as a receiver of the 5s).
 
