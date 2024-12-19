@@ -32,7 +32,7 @@ The 2yr yield underperforms its beta to the 1y1y rate over the shaded sample; fo
 
 In this note we consider positioning for high vol \ high term premia environments using butterfly spreads. All regressions are over the past three years of data.
 
-### Straddle swaption on a 10s20s30s swap butterfly
+### Straddle swaption on a 2s5s10s swap butterfly
 
 If indeed the 5yr yield captures the full spectrum of rate expectations (short, medium and long-run), then high vol environments should see large oscillations in the 5s relative to the 2s and 10s (in particular, in the quantity 5s – (10s+2s)/2) (Figure 5). This recommends a straddle swaption on a 2s5s10s butterfly swap (that is, buying both the right to enter the swap as a payer of the 5s, and the right to enter as a receiver of the 5s).
 
@@ -40,7 +40,7 @@ If indeed the 5yr yield captures the full spectrum of rate expectations (short, 
 
 ### Paying the 20s on a 10s20s30s UST butterfly  
 
-High vol boosts demand for convexity, and thus for the 10s relative to the 20s. High term premia reduces demand for duration and thus lessens demand for the 20s relative to the 30s. Both forces should cause the 20s to cheapen relative to the 10s and 30s (Figure 6). This recommends being short the 20s on a 10s20s30s butterfly spread (and long the 10s and 30s). (The assumption being that the gain in convexity from 20s to 30s outweighs gain in duration from 20s to 30s — in terms of relative demand for the sectors).
+High vol boosts demand for convexity, and thus for the 30s relative to the 20s. High term premia reduces demand for duration and thus lessens demand for the 20s relative to the 10s. Both forces should cause the 20s to cheapen relative to the 10s and 30s (Figure 6). This recommends being short the 20s on a 10s20s30s butterfly spread. (The assumption being that the gain in convexity from 20s to 30s outweighs the attendant gain in duration — in terms of relative demand for the two sectors).
 
 ![Alt text](figures/figure6.jpg) 
 
