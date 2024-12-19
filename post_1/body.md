@@ -38,7 +38,6 @@ If indeed the 5yr yield captures the full spectrum of rate expectations (short, 
 
 ![Alt_text](figures/figure5.jpg)
 
-
 ### Paying the 20s on a 10s20s30s UST butterfly  
 
 High vol boosts demand for convexity, and thus for the 10s relative to the 20s. High term premia reduces demand for duration and thus lessens demand for the 20s relative to the 30s. Both forces should cause the 20s to cheapen relative to the 10s and 30s (Figure 6). This recommends being short the 20s on a 10s20s30s butterfly spread (and long the 10s and 30s). (The assumption being that the gain in convexity from 20s to 30s outweighs gain in duration from 20s to 30s — in terms of relative demand for the sectors).
