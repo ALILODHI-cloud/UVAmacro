@@ -14,4 +14,3 @@ By Ali Lodhi (Research Associate in the Department of Economics).
 
 ---
 
-*Feel free to share your thoughts in the comments below!*
