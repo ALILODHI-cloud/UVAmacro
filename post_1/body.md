@@ -28,7 +28,7 @@ Increases in the 1y1y rate are associated with steepening over the shaded sample
 The 2yr yield underperforms its beta to the 1y1y rate over the shaded sample; for the 10yr yield, the situation is one of outperformance. Additionally, increases in the 1y1y rate cause bear flattening over the full sample (left blue bar > right blue bar) but bear steepening (left yellow < right yellow) over the shaded sample. <br><br>
 
 
-# Section 2: The 10s-20s-30s butterfly in high vol \ high term premia environments 
+# Section 2: The butterfly in high vol \ high term premia environments 
 
 In this note we consider positioning for high vol \ high term premia environments using butterfly spreads. All regressions are over the past three years of data.
 
