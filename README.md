@@ -7,7 +7,7 @@ Welcome to my blog where I explore topics in **macroeconomics**, focusing on fin
 
 ## Latest Posts:
 
-- [**Introduction to Macroeconomics**](posts/post_1/body.md)
+- [**Introduction to Macroeconomics**](post_1/body.md)
 
 
 
