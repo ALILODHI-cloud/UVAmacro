@@ -10,7 +10,7 @@ In this note we consider a regression of the 2s/10s curve on the 1y1y swap rate,
 
 Figure 1 encapsulates the narrative volatility that has characterized this year: an OER-driven reflationary narrative at the beginning; followed by a streak of soft-landing optimism upon downside surprises in April’s NFP and June’s CPI; then hard-landing fears surrounding August’s shock NFP; and, finally, ‘no-landing’ concerns in anticipation of a reflationary Trump regime.  
 
-![Alt_text](ALILODHI-cloud/UVAmacro.github.io/blob/main/post_1/figures/figure1.jpg)
+![Alt_text](post_1/figures)
 
 ### Regression analysis
 
