@@ -1,13 +1,13 @@
 
 
 
-# Welcome to UVA Macro Blog
+# UVA fixed income snapshots 
 
-Welcome to my blog where I explore topics in **macroeconomics**, focusing on financial markets, bond yields, term premia, and more. Here you can find in-depth analyses, models, and visualizations.
+By Ali Lodhi (Research Associate in the Department of Economics).
 
 ## Latest Posts:
 
-- [**Introduction to Macroeconomics**](post_1/body.md)
+- [**Fair value assessement of the 2s10s curve and positioning for volatility using butterflies**](post_1/body.md)
 
 
 
