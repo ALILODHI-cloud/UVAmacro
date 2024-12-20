@@ -3,7 +3,7 @@
 
 # Section 1: Fair value analysis of the 2s10s curve 
 
-In this note we consider a regression of the 2s/10s curve on the 1y1y swap rate, 5y5y breakeven rate and BoFAML MOVE Index. The sample period runs from 2023-12-06 to 2024-12-06. 
+In this note we consider a regression of the 2s/10s curve on the 1y1y swap rate, 5y5y breakeven rate and BoFAML MOVE Index. The sample period runs from 2018-07-12 to 2024-11-27. 
 
 ### Swap rates and the macro narrative: 2024 in retrospect
 
