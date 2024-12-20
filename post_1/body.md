@@ -14,7 +14,7 @@ Figure 1 encapsulates the narrative volatility that has characterized this year:
 
 ### Regression analysis
 
-Figure 2 shows a clear steepening of the 2s10s, relative to fair value, over the shaded sample. Indeed, over that sample, the curve outperforms its beta to the 1y1y swap rate (Figure 3).
+Figure 2 shows a clear steepening of the 2s10s, relative to fair value, over the shaded sample (the average residual over this period is ~5 times the model standard error). Indeed, over that sample, the curve outperforms its beta to the 1y1y swap rate (Figure 3).
 
 
 
