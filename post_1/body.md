@@ -30,7 +30,7 @@ The 2yr yield underperforms its beta to the 1y1y rate over the shaded sample; fo
 
 # Section 2: The butterfly in high vol \ high term premia environments 
 
-In this note we consider positioning for high vol \ high term premia environments using butterfly spreads. The sample period runs from 2018-07-12 to 2024-11-27.
+In this note we consider positioning for high vol \ high term premia environments using butterfly spreads. All regressions are over the past three years of data.
 
 ### Straddle swaption on a 2s5s10s swap butterfly
 
