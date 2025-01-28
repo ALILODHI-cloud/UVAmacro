@@ -19,10 +19,12 @@ Figure 1 depicts the residuals of a regression of the 10y yield on its fundament
 
 # Section 2: Where does this end?
 
-Large increases in the term premium appear to weigh on growth expectations via a negative feedback loop through risk assets; the same dynamic is not visible for large increases in policy pricing (figure 4). In fact, larger increases in the term premium are associated with sharper downturns in equities, growth expectations, and policy pricing (figure 5). (Regarding increases in the policy expectations component: the concurrent downturn in equities and upturn in 5y breakeven can perhaps be explained by the chain: growth optimism --> increase in policy expectations component --> downward pressure on equities).
+Large increases in the term premium appear to weigh on growth expectations via a negative feedback loop through risk assets; the same dynamic is not visible for large increases in policy pricing (there, the story is: growth optimism --> increase in policy expectations component --> downward pressure on equities ) (figure 4). 
 
 ![Alt_text](figures/figure_4.jpg)
+
+In fact, larger increases in the term premium are associated with sharper downturns in equities, growth expectations, and policy pricing (figure 5). Under our framework, the month-to-2025-01-10 increase in term premium has a z-score of ~1.49. Judging by our sample (2006 onwards) this should have been enough to apply some downward pressure on the 10yr yield over the last month (via its policy expectations component). Whether the sell-off soon abates, however, depends on how this force balances-off against an upwards trajectory in term premium. 
+
 ![Alt_text](figures/figure_5.jpg)
 
-Under our framework, the month-to-2025-01-10 increase in term premium has a z-score of ~1.49. Judging by our sample (2006 onwards) this should have been enough to apply some downward pressure on the 10yr yield over the last month (via its policy expectations component). Whether the sell-off soon abates, however, depends on how this force balances-off against an upwards trajectory in term premium. 
 
