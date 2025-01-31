@@ -49,8 +49,22 @@ Application of mutual information to our feature space produces the ranking disp
 
 **Section 3: Performance of the feature-selected model** 
 
-When thinking about which variables to include as features in our model, we might consider starting with the top 10 (as ranked by MI), computing performance, then adding the next best 10, computing performance, and so forth. When doing this, it is notable that the largest drop-offs in performance coincide with the largest drop-offs in MI score (Figure 3). In our case, inclusion of the top 50 variables appears optimal, and doing so sees vast improvements upon the simple model from earlier (Figure 4). 
+When thinking about which variables to include as features in our model, we might consider starting with the top 10 (as ranked by MI), computing performance, then adding the next best 10, computing performance, and so forth. When doing this, it is notable that the largest drop-offs in performance coincide with the largest drop-offs in MI score (Figure 3). This happens, presumably, because if a variable is uninformative about the 2s10s curve, then its inclusion is tantamount to forcing the model to learn a relationship which doesn't exist - that is, noise. 
 
 ![Alt_text](figures/figure_3.jpg)
+
+In our case, inclusion of the **top 50** variables appears optimal. Thus our model is now:
+
+$$\text{2s10s curve} = \beta_0 + \sum_{i=1}^{50} \beta_i \cdot X_{\text{feature with i-th highest MI score}}$$
+
+This model sees vast improvements upon the simple model from earlier (Figure 4). 
+
 ![Alt_text](figures/figure_4.jpg)
+
+**Conclusion**
+
+Future extensions will entail translating this fair-value model into trading signals that can support a simple relative-value strategy. I will also attempt backtesting of some sort. 
+
+
+**Ali**
 
