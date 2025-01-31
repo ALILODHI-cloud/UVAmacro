@@ -16,14 +16,14 @@ Figure 1 depicts the residuals of a regression of the 10yr on its fundamental dr
 ![Alt_text](figures/figure_3.jpg)
 
 
-# Section 2: Where does this end?
+# Conclusion: Where does this end?
 
 Large increases in the term premium appear to weigh on growth expectations via a negative feedback loop running through risk assets; the same dynamic is not visible for large increases in policy pricing (there, the story is: growth optimism --> increase in policy expectations component --> downward pressure on equities ) (figure 4). 
 
 ![Alt_text](figures/figure_4.jpg)
 
-In fact, larger increases in the term premium are associated with sharper downturns in equities, growth expectations, and policy pricing (figure 5). Under our framework, the month-to-2025-01-10 increase in term premium has a z-score of ~1.49. Per figure 5, this should have been enough to apply some downward pressure on the 10yr over the last month (via the 10yr's policy expectations component). Whether the sell-off soon abates, however, depends on how this force balances-off against an upwards trajectory in term premium. 
+In fact, larger increases in the term premium are associated with sharper downturns in equities, growth expectations, and policy pricing (figure 5). 
 
 ![Alt_text](figures/figure_5.jpg)
 
-
+Under our framework, the month-to-2025-01-10 increase in term premium has a z-score of ~1.49. Per figure 5, this should have been enough to apply some downward pressure on the 10yr over the last month (via the 10yr's policy expectations component). Whether the sell-off soon abates, however, depends on how this force balances-off against an upwards trajectory in term premium. 
