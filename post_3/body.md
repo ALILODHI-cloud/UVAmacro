@@ -43,3 +43,14 @@ $$
 
 Intuitively, the numerator in the log term would be smaller than the denominator, and so the log would resolve to something less than zero. While this observation would thus detract from the MI score, it would do so in a way which is scaled by "prop of obs in which X=1 and Y=0" - which is to say, not by much ("prop of obs in which X=1 and Y=0" is likely very small).
 
+Application of mutual information to our feature space produces the ranking displayed in Figure 2. It is notable that forward swap rates comprise the bulk of the highest-performing variables. 
+
+![Alt_text](figures/figure_2.jpg)
+
+**Section 3: Performance of the feature-selected model** 
+
+When thinking about which variables to include as features in our model, we might consider starting with the top 10 (as ranked by MI), computing performance, then adding the next best 10, computing performance, and so forth. When doing this, it is notable that the largest drop-offs in performance coincide with the largest drop-offs in MI score (Figure 3). In our case, inclusion of the top 50 variables appears optimal, and doing so sees vast improvements upon the simple model from earlier (Figure 4). 
+
+![Alt_text](figures/figure_3.jpg)
+![Alt_text](figures/figure_4.jpg)
+
