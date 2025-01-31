@@ -4,7 +4,9 @@
 
 In prior posts, we have assumed the following structure for fair-value analysis of the 2s10s curve: 
 
-$$\text{2s10s curve} = \beta_0 + \beta_1 \times \text{1y1y OIS rate} + \beta_2 \times \text{5y5y breakeven rate} + \beta_3 \times \text{fed balance sheet as prop of US economy}$$ 
+$$
+\text{2s10s curve} = \beta_0 + \beta_1 \times \text{1y1y OIS rate} + \beta_2 \times \text{5y5y breakeven rate} + \beta_3 \times \text{fed balance sheet as prop of US economy}
+$$ 
 
 In this post, we evaluate the out-of-sample performance of that model, and then attempt to improve upon it using feature-selection techniques borrowed from machine learning. 
 
