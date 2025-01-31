@@ -44,3 +44,6 @@ High vol boosts demand for convexity, and thus for the 30s relative to the 20s. 
 
 ![Alt text](figures/figure6.jpg) 
 
+# Conclusion 
+
+The 2s10s UST curve currently appears cheap relative to fair value. Much of this cheapness appears driven by a heightened beta to the 1y1y ois rate. It could also be driven by rising term-premia, in which case a straddle swaption on a 2s5s10s swap butterfly, or paying the 20s on a 10s20s30s UST butterfly, would be advisable trades.
