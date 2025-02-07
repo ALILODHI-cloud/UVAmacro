@@ -34,7 +34,7 @@ In this note we consider positioning for high vol \ high term premia environment
 
 ### Straddle swaption on a 2s5s10s swap butterfly
 
-If indeed the 5yr yield captures the full spectrum of rate expectations (short, medium and long-run), then high vol environments should see large oscillations in the 5s relative to the 2s and 10s (in particular, in the quantity 5s – (10s+2s)/2) (Figure 5). This recommends a straddle swaption on a 2s5s10s butterfly swap (that is, buying both the right to enter the swap as a payer of the 5s, and the right to enter as a receiver of the 5s).
+If indeed the 5yr yield captures the full spectrum of rate expectations (short, medium and long-run), then high vol environments should see large oscillations in the 5s relative to the 2s and 10s (in particular, in the quantity 5s – (10s+2s)/2) (Figure 5). This reccomends buying the belly in a 2s5s10s straddle swap fly (that is, buying two ATM straddles on the 5yr rate, and then selling an ATM straddle on each of the wings). Gains are realised when volatility in 5yr rate outperforms that of the wing rates. Also, recall, a straddle itself comprises both a receiver and payer swaption. The straddle being ATM means that its constituent swaptions are both ATM. 
 
 ![Alt_text](figures/figure5.jpg)
 
