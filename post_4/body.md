@@ -10,19 +10,14 @@
 </head>
 
 
-In prior posts, we have assumed the following structure for fair-value analysis of the 2s10s curve: 
+**Section 1: PCA Intro** 
 
-$$
-\text{2s10s curve} = \beta_0 + \beta_1 \times \text{1y1y OIS rate} + \beta_2 \times \text{5y5y breakeven rate} + \beta_3 \times \text{fed balance sheet as prop of US economy}
-$$ 
+Suppose we have the following, two-dimensional, data:
 
-In this post, we evaluate the out-of-sample performance of that model, and then attempt to improve upon it using feature-selection techniques borrowed from machine learning. 
-
-**Section 1: Simple model performance** 
-
-Having fit\trained the simple model on the 2006 start-2014 start sample, Figure 1 displays its performance on the 2014 - 2016 sample. Performance, as can be seen, is very poor. 
 
 ![Alt_text](figures/figure_1.jpg)
+
+The orange arrows identify the most salient axes of variation in the data. In other words, most of the variance in our data is captured by the 'big X and Y - small X and Y'; the most common 'way' in which one observations differs from another, is by one having a large X and Y, and the other having a small X and Y. Then, clearly, the second most common 'way' is that one observation has a large X and small Y, whereas the other has a small X and large Y — this is described by the shorter arrow, which captures a smaller proportion of the variance in our data.  
 
 
 **Section 2: Linear regression + feature selection via mutual information** 
