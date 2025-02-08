@@ -19,6 +19,8 @@ Suppose we have the following, two-dimensional, data:
 
 The orange arrows identify the most salient axes of variation in the data. In other words, most of the variance in our data is captured by the 'big X and Y - small X and Y'; the most common 'way' in which one observations differs from another, is by one having a large X and Y, and the other having a small X and Y. Then, clearly, the second most common 'way' is that one observation has a large X and small Y, whereas the other has a small X and large Y — this is described by the shorter arrow, which captures a smaller proportion of the variance in our data.  
 
+Principal Component Analysis (PCA) leverages a technique called 'Eigenvalue Decomposition' to identify arrows like the orange ones – that is, the major axes of variation in a given data. Consider Figure 2, a PCA decomposition applied to yield level data.  
+
 
 **Section 2: Linear regression + feature selection via mutual information** 
 
