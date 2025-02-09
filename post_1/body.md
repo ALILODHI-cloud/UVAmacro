@@ -27,7 +27,7 @@ Increases in the 1y1y rate are associated with steepening over the shaded sample
 Increases in the 1y1y rate cause bear flattening over the full sample (left blue bar > right blue bar) but bear steepening (left yellow < right yellow) over the shaded sample. <br><br>
 
 
-# Section 2: The long-belly 2s5s10s butterfly swaption straddle as a way to position for policy uncertainty  
+# Section 2: Buying belly vol in a 2s5s10s butterfly swaption straddle as a way to position for policy uncertainty  
 
 In this note we consider positioning for policy uncertainty by buying belly vol in a 2s5s10s butterfly swaption straddle—that is, buying two ATM straddles on the 5yr swap rate, and selling an ATM straddle on each of the 2yr and 10yr rates.  The sample period runs from 2018-07-12 to 2024-11-27.
 
