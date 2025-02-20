@@ -7,9 +7,9 @@ The 2-year treasury yield reflects near-term Fed pricing, whereas the 10-year tr
 
 *remove annualised from graph*
 
-![Alt_text](figures/figure5.jpg)
+![Alt_text](figures/figure1.jpg)
 
-![Alt text](figures/figure6.jpg) 
+![Alt text](figures/figure2.jpg) 
 
 
 One way to position for this kind of belly vol outperformance is via the 2s5s10s butterfly swaption straddle. 
