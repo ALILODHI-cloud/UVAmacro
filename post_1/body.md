@@ -20,7 +20,7 @@ One way to position for this kind of belly vol outperformance is via the 2s5s10s
 This trade is executed by buying two ATM straddle on the 5-year rate, and selling an ATM straddle on each of the 2-year and 10-year rates. Below we provide a brief primer on swaptions and straddles. 
 
 
-> ### Primer: the mechanics swaptions and straddles
+> ### Primer: swaptions and swaption straddles
 >
 >By buying a 'payer swaption', I buy the right to enter an interest rate swap as the payer of a given fixed rate (the 'strike rate'), and a receiver of a particular floating rate (typically the OIS rate). If the swaption is 'AT-THE-MONEY' ('ATM'), then the strike rate is equal to the prevailing fixed rate for swaps of that tenor. So, for instance, if I buy an ATM swaption on a 2-year swap, the strike rate will equal to the prevailing fixed-rate on a 2-year swap. In turn, this fixed-rate has been priced such that it equals the expected average of the OIS rate over the next two years, and thus so too has the strike rate in my swaption. Because of this, in expectation I would earn a payoff of zero were I to enter the swap immediately (in particular, the present value of the flow of payments I will make = present value of flow of payments I will receive). But consider that the 2-year swap rate rises above the strike rate (because of, say, a hawkish Fed repricing). This means that the expected average of the OIS rate, over the next two years, is greater than the strike rate. Now, my expected payoff from exercising the swaption is greater than zero, and so it is profitable for me to do so. But what is also the case is that the swaption, as a position, has gained in value. So in principle I could sell it for a profit. 
 >
