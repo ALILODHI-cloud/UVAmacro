@@ -13,20 +13,31 @@
 
 As has been well-documented, the past week saw a marked widening of swap spreads. Longer tenors outperformed, and thus steepening was observed across the spread curve. The catalyst was a relief of spot supply\funding concerns afforded by the following events:
 
+  1. At the Treasury QFA it was said that: "Treasury anticipates maintaining nominal coupon and FRN auction sizes for
+  at least the next several quarters." This was bullish relative to an anticipated terming-out.
 
+  2. Governor Bowman said that "Where we can take proactive regulatory measures to ensure that primary dealers have adequate balance sheet       capacity to intermediate Treasury markets, we should do so. This could include amending the leverage ratio and G-SIB surcharge regulations
+  for the largest U.S banks". The implied exemption of Treasuries from the leverage ratio calculation would boost bank demand.
 
-## Section 1: PCA Intro
+  3. Secretary Bessent emphasized that "The president wants lower rates. He and I are focused on the 10-year Treasury and what is the yield     of that", further inspiring confidence in the stability of near-term duration supply.
 
-Suppose we have the following, two-dimensional, data:
+This wave of relief should prove bearish for the realised vol of longer-tenor (e.g. 10yr) rates in the near-term. Yet the proposals that have driven this relief should, if realised, themselves prove supportive of longer-tenor longer-run realised vol. For instance, prolonged reliance on bills means greater sensitivity of deficits to interest rates, and thus higher deficits in the event of upside rate outcomes (because interest expense is a sizeable portion of government expenses). As another example, deregulation would mean greater likelihood of adverse outcomes down the road. 
 
+The result would be a steepening of the vol surface between near-term and longer-term expiries for tenors such as the 10 and 30yrs. Buying, say, 2y10y straddles vs 6m10y straddles would be a way to position for this. The preceding can be considered a fundamentals-based argument for this trade. In this post, we also advance a technicals-based one. We first perform a PCA decomposition of UST and swap rate data to capture sentiment of relief around supply absorption\funding concerns. We then use the relevant principal component to study returns of the above-mentioned calendar spread (buying a 2y10y straddle and selling a 6m10y straddle) following sharp spikes in this relief sentiment. 
 
+Below we provide a primer on PCA. 
+
+>## PCA primer
+>
+>Suppose we have the following, two-dimensional, data:
+>
 ![Alt_text](figures/figure_1.jpg)
-
-The orange arrows identify the most salient axes of variation in the data. In other words, most of the variance in our data is captured by the 'big X and Y - small X and Y'; the most common 'way' in which one observations differs from another, is by one having a large X and Y, and the other having a small X and Y. Then, clearly, the second most common 'way' is that one observation has a large X and small Y, whereas the other has a small X and large Y — this is described by the shorter arrow, which captures a smaller proportion of the variance than the longer arrow. Finally, note that the identified axes of variation are simply linear combinations of variables X and Y, where the sign of the weights on each variable reflect whether increases in that variable are associated with movements up, or down, the corresponding axis.  
-
-Principal Component Analysis (PCA) leverages a technique called 'Eigenvalue Decomposition' to identify arrows like the orange ones – that is, the major axes of variation in a given set of data. Consider Figure 2, for instance, which gives the output of a PCA decomposition on yield level data. 'PC1', or the first 'principal component', is the axis that captures most of the variation in the data. The weight ('loading') on each variable is positive, indicating that PC1 captures the variation that occurs due to some observations having across-the-board high yields, and others having across-the-board low yields. Thus we can term PC1 the 'level' component of our yield data. Looking next at PC2, we find that short and long-tenor yields are inversely-signed, indicating that this component has captured the variation ascribable to differences in the slope of the yield curve. Hence, PC2 is a 'slope' component. Similiar reasoning establishes that PC3 is best described as a 'curvature' component. 
-
-PC2, it turns out, tracks rather well with the ACM measure of 10yr term premium (Figure 2). The intuition is that increases in PC2 are associated with steepening across multiple curve pairs - a type of 'spacing out' of the yield curve - which should inuitively correlate well with increases in term premium. 
+>
+>The orange arrows identify the most salient axes of variation in the data. In other words, most of the variance in our data is captured by the 'big X and Y - small X and Y'; the most common 'way' in which one observations differs from another, is by one having a large X and Y, and the other having a small X and Y. Then, clearly, the second most common 'way' is that one observation has a large X and small Y, whereas the other has a small X and large Y — this is described by the shorter arrow, which captures a smaller proportion of the variance than the longer arrow. Finally, note that the identified axes of variation are simply linear combinations of variables X and Y, where the sign of the weights on each variable reflect whether increases in that variable are associated with movements up, or down, the corresponding axis.  
+>
+>Principal Component Analysis (PCA) leverages a technique called 'Eigenvalue Decomposition' to identify arrows like the orange ones – that is, the major axes of variation in a given set of data. Consider Figure 2, for instance, which gives the output of a PCA decomposition on yield level data. 'PC1', or the first 'principal component', is the axis that captures most of the variation in the data. The weight ('loading') on each variable is positive, indicating that PC1 captures the variation that occurs due to some observations having across-the-board high yields, and others having across-the-board low yields. Thus we can term PC1 the 'level' component of our yield data. Looking next at PC2, we find that short and long-tenor yields are inversely-signed, indicating that this component has captured the variation ascribable to differences in the slope of the yield curve. Hence, PC2 is a 'slope' component. Similiar reasoning establishes that PC3 is best described as a 'curvature' component. 
+>
+>PC2, it turns out, tracks rather well with the ACM measure of 10yr term premium (Figure 2). The intuition is that increases in PC2 are associated with steepening across multiple curve pairs - a type of 'spacing out' of the yield curve - which should inuitively correlate well with increases in term premium. 
 
 ![Alt_text](figures/figure_2.jpg)
 
