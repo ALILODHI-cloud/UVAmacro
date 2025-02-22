@@ -11,7 +11,7 @@
 
 # Trading relative vol post Bowman and 2025 Q1 Treasury Refunding 
 
-As has been well-documented, the past week saw a marked widening of swap spreads. Longer tenors outperformed, and thus steepening was observed across the spread curve. The catalyst was a relief of spot supply\funding concerns afforded by the following events:
+As has been well-documented, the past week saw a marked widening of swap spreads, with longer-tenor outperformance driving steepening across the spread curve. The catalyst was a relief of spot supply\funding concerns afforded by the following events:
 
   1. At the Treasury QFA it was said that: "Treasury anticipates maintaining nominal coupon and FRN auction sizes for
   at least the next several quarters." This was bullish relative to an anticipated terming-out.
@@ -21,9 +21,9 @@ As has been well-documented, the past week saw a marked widening of swap spreads
 
   3. Secretary Bessent emphasized that "The president wants lower rates. He and I are focused on the 10-year Treasury and what is the yield     of that", further inspiring confidence in the stability of near-term duration supply.
 
-This wave of relief should prove bearish for the realised vol of longer-tenor (e.g. 10yr) rates in the near-term. Yet the proposals that have driven this relief should, if realised, themselves prove supportive of longer-tenor longer-run realised vol. For instance, prolonged reliance on bills means greater sensitivity of deficits to interest rates, and thus higher deficits in the event of upside rate outcomes (because interest expense is a sizeable portion of government expenses). As another example, deregulation would mean greater likelihood of adverse outcomes down the road. 
+This wave of relief should prove bearish for the realised vol of longer-tenor (e.g. 10yr) rates in the near-term. Yet the proposals that have driven this relief should, if realised, themselves prove supportive of longer-tenor, longer-run realised vol. For instance, prolonged reliance on bills means greater sensitivity of deficits to interest rates, and thus higher deficits in the event of upside rate outcomes (because interest expense is a sizeable portion of government expenses). As another example, deregulation would mean greater likelihood of adverse outcomes down the road. The result is a steepening of the vol surface between near-term and longer-term expiries for tenors such as the 10 and 30yrs. Buying, say, 2y10y straddles vs 6m10y straddles would be a way to position for this. 
 
-The result would be a steepening of the vol surface between near-term and longer-term expiries for tenors such as the 10 and 30yrs. Buying, say, 2y10y straddles vs 6m10y straddles would be a way to position for this. The preceding can be considered a fundamentals-based argument for this trade. In this post, we also advance a technicals-based one. We first perform a PCA decomposition of UST and swap rate data to capture sentiment of relief around supply absorption\funding concerns. We then use the relevant principal component to study returns of the above-mentioned calendar spread (buying a 2y10y straddle and selling a 6m10y straddle) following sharp spikes in this relief sentiment. 
+(1)-(3) can collectively be considered a fundamentals-based argument for this trade. In this post, we advance a technicals-based one. First, a PCA decomposition of UST and swap rate data is performed to capture sentiment (e.g. optimism vs pessimism) around duration supply absorption\funding concerns. Then, we study behaviour of returns to the above-mentioned calendar spread (buying a 2y10y straddle vs a 6m10y straddle) following sharp increases in optimism around such issues.  
 
 Below we provide a primer on PCA. 
 
@@ -41,7 +41,9 @@ Below we provide a primer on PCA.
 
 ![Alt_text](figures/figure_2.jpg)
 
+# PCA and swap spreads 
 
+Figure 3 presents the first two components from a PCA on UST and OIS swap rate data. The first component is a level component. The second component, on the other hand, is a swap spread component. Note that larger values of that component are associated with narrower swap spreads, whereas smaller values with wider ones. Additionally, it can be observed that (10yr_OIS_swap loading - 10yr_yield loading) > (7yr_OIS_swap loading - 7yr_yield loading) > (5yr_OIS_swap loading - 5yr_yield loading) and so forth. This means that increases in PC2 are also associated with flattening of the swap spread curve (longer tenors narrow more than shorter ones). Therefore, increases in PC2 can effectively be interpreted as a rise in pessimism around spot supply absorption\funding issues (Figure 4).
 
 
 
