@@ -9,8 +9,13 @@
   </script>
 </head>
 
+# Trading relative vol post Bowman and 2025 Q1 Treasury Refunding 
 
-**Section 1: PCA Intro** 
+As has been well-documented, the past week saw a marked widening of swap spreads. Longer tenors outperformed, and thus steepening was observed across the spread curve. The catalyst was a relief of spot supply\funding concerns afforded by the following events:
+
+
+
+## Section 1: PCA Intro
 
 Suppose we have the following, two-dimensional, data:
 
