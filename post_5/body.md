@@ -23,7 +23,7 @@ We quantify the extent of mean reversion in a given period x by: (realised vol i
 
 What can be seen is a clear downwards-shift in mass as one moves rightwards across the distributions. This suggests a flatter initial curve is associated with a greater degree of mean reversion over the course of the period. 
 
-![Alt_text](figures/figure_1.jpg)
+![Alt_text](figures/figure1.jpg)
 
 
 ## Strategy implications 
