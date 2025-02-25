@@ -40,12 +40,10 @@ So to return, why is a Fed-on-hold bearish for Gamma? Because of the heightened 
 
 Another consequence of mean reversion is that an investor can afford to delta-hedge less frequently. If the delta jumps from 0 to 5, but there is a strong likelihood the rate, and thus delta, will fall back down, delta hedgeing is something that can be gone without (at least for the meanwhile). This boosts the profitably of a short-gamma position. 
 
-![Alt_text](figures/figure_1.jpg)
-
 
 ## Conclusion 
 
-A Fed on hold appears to entail a greater degree of mean reversion, which renders short-gamma positioning advisable. 
+A Fed-on-hold appears to entail a greater degree of mean reversion, which renders short-gamma positioning advisable. 
 
 
 
