@@ -21,9 +21,9 @@ As has been well-documented, the past week saw a marked widening of swap spreads
 
   3. Secretary Bessent emphasized that "The president wants lower rates. He and I are focused on the 10-year Treasury and what is the yield     of that", further inspiring confidence in the stability of near-term duration supply.
 
-This wave of relief should prove bearish for the realised vol of longer-tenor (e.g. 10yr) rates in the near-term. Yet the proposals that have driven this relief should, if realised, themselves prove supportive of longer-tenor, longer-run realised vol. For instance, prolonged reliance on bills means greater sensitivity of deficits to interest rates, and thus higher deficits in the event of upside rate outcomes (because interest expense is a sizeable portion of government expenses). As another example, deregulation would mean greater likelihood of adverse outcomes down the road. The result is a steepening of the vol surface between near-term and longer-term expiries for tenors such as the 10 and 30yrs. Buying, say, 2y10y straddles vs 6m10y straddles would be a way to position for this. 
+This wave of relief should prove bearish for the realised vol of longer-tenor (e.g. 10yr) rates in the near-term. Yet the proposals that have driven this relief should themselves prove supportive of longer-run realised vol. For instance, prolonged reliance on bills means greater sensitivity of deficits to interest rates, and thus higher deficits in the event of upside rate outcomes (because interest expense is a sizeable portion of federal expenses). As another example, deregulation would mean greater likelihood of adverse outcomes down the road. The result would be a steepening of the vol surface along expiries for tenors such as the 10yr and 30yr. At the same time, the road is paved for attention to shift to policy-pricing matters - for instance a reassessement of the presumed dovish-skew of the Fed's reaction function. Putting these points together (lower realised vol of 10yr rate in near-term but not necessarily long-term + a refocus of attention on the 2yr) would imply a steepening of the vol surface along tenors for expiries like the 6m. A structure like buying 6m2y straddles vs 6m10y straddles would thus be advisable. 
 
-(1)-(3) can collectively be considered a fundamentals-based argument for this trade. In this post, we advance a technicals-based one. First, a PCA decomposition of UST and swap rate data is performed to capture sentiment (e.g. optimism vs pessimism) around duration supply absorption\funding concerns. Then, we study behaviour of returns to the above-mentioned calendar spread (buying a 2y10y straddle vs a 6m10y straddle) following sharp increases in optimism around such issues.  
+(1)-(3) can collectively be considered a fundamentals-based argument for this trade. In this post, we advance a technicals-based one. First, a PCA decomposition of UST and swap rate data is performed to capture sentiment (e.g. optimism vs pessimism) around duration supply absorption\funding concerns. Then, we study behaviour of returns to the above-mentioned spread (buying a 6m2y straddle vs a 6m10y straddle) following sharp increases in optimism around such issues.  
 
 Below we provide a primer on PCA. 
 
@@ -43,55 +43,16 @@ Below we provide a primer on PCA.
 
 # PCA and swap spreads 
 
-Figure 3 presents the first two components from a PCA on UST and OIS swap rate data. The first component is a level component. The second component, on the other hand, is a swap spread component. Note that larger values of that component are associated with narrower swap spreads, whereas smaller values with wider ones. Additionally, it can be observed that (10yr_OIS_swap loading - 10yr_yield loading) > (7yr_OIS_swap loading - 7yr_yield loading) > (5yr_OIS_swap loading - 5yr_yield loading) and so forth. This means that increases in PC2 are also associated with flattening of the swap spread curve (longer tenors narrow more than shorter ones). Therefore, increases in PC2 can effectively be interpreted as a rise in pessimism around spot supply absorption\funding issues (Figure 4).
-
-
-
-**Section 2: Linear regression + feature selection via mutual information** 
-
-In this section, we retain a linear regression framework, but select regressors (‘features’) in a more algorithmic fashion. In particular, the feature utility metric ‘mutual information’ is deployed on a data set comprising 60 variables (figure 2). 
-
-As a summary overview, given a prospective feature X and target Y, this technique computes a mutual information score according to:
-
-$$
-I(X; Y) = \sum_{x \in X} \sum_{y \in Y} p(x, y) \log \left( \frac{p(x, y)}{p(x) p(y)} \right)
-$$
-
-To gain some intuition, suppose X is a binary RV indicating whether a particular person used an umbrella on a given day. Suppose Y is a binary RV indicating whether it rained on a given day. 
-
-Let our first observation be such that X=1, Y=1 (i.e. an umbrella was used and it rained). The summand resolves to 
-
-$$
-I(X; Y) = (\text{prop of obs in which X=1 and Y=1}) \times \log \left( \frac{(\text{prop of obs in which X=1 and Y=1})}{(\text{prop of obs in which X=1) (prop of obs in which Y=1)}} \right)
-$$
-
-Because "prop of odds in which X=1" and "prop of odds in which Y=1" will both, naturally, be _basically_ equal to "prop of odds in which X=1 AND Y=1", the argument in the log term will be greater than 1, and thus the log term itself greater than 0. Therefore observation one will contribute positively to the MI score. Also, because "prop of obs in which X=1 and Y=1" is quite large, the positive contribution will be weighted quite heavily. The result is a large MI score. 
-
-We will also, however, have cases where, say, (X=1, Y=0). The summand would in this case be:
-
-$$
-I(X; Y) = (\text{prop of obs in which X=1 and Y=0}) \times \log \left( \frac{(\text{prop of obs in which X=1 and Y=0})}{(\text{prop of obs in which X=1) (prop of obs in which Y=0)}} \right)
-$$
-
-Intuitively, the numerator in the log term would be smaller than the denominator, and so the log would resolve to something less than zero. While this observation would thus detract from the MI score, it would do so in a way which is scaled by "prop of obs in which X=1 and Y=0" - which is to say, not by much ("prop of obs in which X=1 and Y=0" is likely very small).
-
-Application of mutual information to our feature space produces the ranking displayed in Figure 2. It is notable that forward swap rates comprise the bulk of the highest-performing variables. 
-
-![Alt_text](figures/figure_2.jpg)
-
-**Section 3: Performance of the feature-selected model** 
-
-When thinking about which variables to include as features in our model, we might consider starting with the top 10 (as ranked by MI), computing performance, then adding the next-best 10, computing performance, and so forth. When doing this, it is notable that the largest drop-offs in performance coincide with the largest drop-offs in MI score (Figure 3). This happens, presumably, because if a variable is uninformative about the 2s10s curve, then its inclusion is tantamount to forcing the model to learn a relationship which doesn't exist - that is, noise. 
+Figure 3 presents the first two components from a PCA on UST and OIS swap rate data. The first component is a level component. The second component, on the other hand, is a swap spread component. Note that larger values of that component are associated with narrower swap spreads, whereas smaller values with wider ones. Additionally, it can be observed that (10yr_OIS_swap loading - 10yr_yield loading) > (7yr_OIS_swap loading - 7yr_yield loading) > (5yr_OIS_swap loading - 5yr_yield loading) and so forth. This means that increases in PC2 are also associated with flattening of the swap spread curve (longer tenors narrow more than shorter ones). Therefore, increases in PC2 can effectively be interpreted as a rise in pessimism around spot supply absorption\funding issues; decreases can be interpreted as the exact converse (Figure 4).
 
 ![Alt_text](figures/figure_3.jpg)
 
-In our case, inclusion of the **top 50** variables appears optimal. Thus our model is now:
-
-$$\text{2s10s curve} = \beta_0 + \sum_{i=1}^{50} \beta_i \cdot X_{\text{feature with i-th highest MI score}}$$
-
-This model sees vast improvements upon the simple model from earlier (Figure 4). 
-
 ![Alt_text](figures/figure_4.jpg)
+
+We can proxy returns to the 6m2y vs 6m10y spread (described above) by -(realised vol 10yr swap rate - realised vol 2yr swap rate). Figure 5 looks at the distribution of  (realised vol 10yr swap rate - realised vol 2yr swap rate) over the 6 months following decreases in PC2 over different horizons. For instance, the blue bar in the 5-day horizon plot shows that distribution following decreases in PC2 that were between 1 and 2 2yr-rolling standard deviations (of 5-day changes) away from the 2yr-day-rolling mean (of 5-day changes). It is both the case that (1) 'large' shocks entail fatter right tails (that is, more upside to the trade); and (2) 'large' shocks entail higher mean returns. The intuition is that sharp decrease in PC2 --> relief-driven compression of outcomes around 10yr rate --> greater underperformance of 10yr realised vol vs 2yr realised vol. 
+
+
+
 
 **Conclusion**
 
