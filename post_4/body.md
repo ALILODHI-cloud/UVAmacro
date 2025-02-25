@@ -2,7 +2,7 @@
 
 
 
-# Trading relative vol post Bowman and 2025 Q1 Treasury Refunding 
+# Trading relative vol post Bowman and 2025 Q1 Treasury Refunding Announcement
 
 As has been well-documented, the past week saw a marked widening of swap spreads, with longer-tenor outperformance driving steepening across the spread curve. The catalyst was a relief of spot supply\funding concerns afforded by the following events:
 
