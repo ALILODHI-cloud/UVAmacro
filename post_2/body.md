@@ -24,7 +24,7 @@ Sufficiently large increases in the term premium appear to weigh on growth expec
 
 ![Alt_text](figures/figure_5.jpg)
 
-Under our framework, the month-to-2025-01-10 increase in term premium has a z-score of ~1.49, which would qualify as insufficient in terms of applying downward pressure on the 10yr yield (via the 10yr's policy expectations component). 
+Under our framework, the month-to-2025-01-10 increase in term premium has a z-score of ~1.49, which would qualify as insufficient in terms of applying downward pressure on the 10yr yield. 
 
 # Conclusion
 
