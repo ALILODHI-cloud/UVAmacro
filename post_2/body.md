@@ -18,7 +18,7 @@ Figure 1 depicts the residuals of a regression of the 10yr on its fundamental dr
 
 # Section 2: Where does this end?
 
-Sufficiently large increases in the term premium appear to weigh on growth expectations via a negative feedback loop running through risk assets (figure 4). The the same dynamic is not visible for large increases in policy pricing (there, the story is: growth optimism --> increase in policy expectations component --> downward pressure on equities) (figure 5). The underlying intuition is perhaps that sharp increase in term premia = sharp improvement in risk-reward characteristics of duration --> duration crowds out equities, triggering downturn --> growth pessimism weighs on policy pricing component of 10yr yield. 
+Sufficiently large increases in the term premium appear to weigh on growth expectations via a negative feedback loop running through risk assets (figure 4). The the same dynamic is not visible for large increases in policy pricing (there, the story is: growth optimism --> increase in policy expectations component --> downward pressure on equities) (figure 5). The underlying intuition is perhaps that sharp increase in term premia = sharp improvement in risk-reward characteristics of duration --> duration crowds out equities, triggering equity downturn --> resultant growth pessimism weighs on policy pricing component of 10yr yield. 
 
 ![Alt_text](figures/figure_4.jpg)
 
