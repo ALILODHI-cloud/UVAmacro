@@ -11,7 +11,7 @@ By Ali Lodhi (Research Associate in the Department of Economics).
 - [**Fair-value model of the 2s10s curve: an ML approach (2025-01-31)**](post_3/body.md)
 - [**Derivative strategy for a Fed on hold: a hit straight to the Gamma (2025-01-29)**](post_5/body.md)
 - [**Anatomy of a bond sell-off: whence and where to? (2025-01-10)**](post_2/body.md)
-- [**Fair value assessement of the 2s10s curve and positioning for volatility using straddle swaption butterflies (2024-11-27)**](post_1/body.md)
+- [**Buying belly vol in a 2s5s10s butterfly swaption straddle as a way to position for policy uncertainty (2024-11-27)**](post_1/body.md)
   
 
 
