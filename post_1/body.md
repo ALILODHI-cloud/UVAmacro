@@ -2,9 +2,7 @@
 
 # Buying belly vol in a 2s5s10s butterfly swaption straddle as a way to position for policy uncertainty
 
-The 2-year treasury yield reflects near-term Fed pricing, whereas the 10-year treasury yield reflects both longer-term Fed pricing, and the premium commanded by duration risk. If indeed belly-rates - the 5-year rate, for instance - captures both these considerations, then periods of heightened policy should see realised volatility on the 5-year rate outperform that on the 2-year and 10-year ones (Figure 5; Figure 6). The intuition is that the 5-year rate is giving expression to two sources of uncertainty, whereas each of the 2-year and 10-year are doing this only for one. But why, per Figure 6, is this not a general phenomenon, obtaining also in environments characterised by 'low' and 'regular' degrees of policy uncertainty? After all, isn't the 5-year _always_ giving expression to near-term policy pricing considerations, and also to long-term policy pricing\term premium considerations? A possibility is that it is only doing each of these things in times of heightened uncertainty. For instance, near-term policy pricing uncertainty only ripples up into the belly when there is a lot of it - because considerable near-term pricing uncertainty typically entails considerable medium-term pricing uncertainty. The same can be argued for long-term policy pricing rippling down into the belly. As for long-term tp uncertainty: its reasonable to think that it induces uncertainty around belly duration tp only where is a considerable amount of it (a considerable amount of long-term tp uncertainty, that is).
-
-
+The 2-year treasury yield reflects near-term Fed pricing, whereas the 10-year treasury yield reflects both longer-term Fed pricing, and the premium commanded by duration risk. If indeed belly-rates - the 5-year rate, for instance - captures both these considerations, then periods of heightened policy should see realised volatility on the 5-year rate outperform that on the 2-year and 10-year ones (Figure 5; Figure 6). The intuition is that the 5-year rate is giving expression to two sources of uncertainty, whereas each of the 2-year and 10-year are doing this only for one. But why, per Figure 6, is this not a general phenomenon, obtaining also in environments characterised by 'low' and 'regular' degrees of policy uncertainty? After all, isn't the 5-year _always_ giving expression to near-term policy pricing considerations, and also to long-term policy pricing\term premium considerations? A possibility is that it is only doing each of these things in times of heightened uncertainty. For instance, near-term policy pricing uncertainty only ripples up into medium-term policy pricing uncertainty when there is a lot of it. The same can be argued for long-term policy pricing rippling down into the belly. As for long-term tp uncertainty: it's reasonable to think that it induces uncertainty around belly duration tp only where is a considerable amount of it.
 
 ![Alt_text](figures/figure1.jpg)
 
@@ -16,7 +14,7 @@ One way to position for this kind of belly vol outperformance is via the 2s5s10s
 
 ## 2s5s10s butterfly swaption straddle
 
-This trade is executed by buying two ATM straddle on the 5-year rate, and selling an ATM straddle on each of the 2-year and 10-year rates. Below we provide a brief primer on swaptions and straddles. 
+This trade is executed by buying two ATM straddles on the 5-year rate, and selling an ATM straddle on each of the 2-year and 10-year rates. Below we provide a brief primer on swaptions and straddles. 
 
 
 > ### Primer: swaptions and swaption straddles
@@ -31,4 +29,3 @@ This trade is executed by buying two ATM straddle on the 5-year rate, and sellin
 
 So the best case for our butterfly trade is if the 5-year rate ends up wildly higher or lower, whereas the 2-year and 10-year ones end up relatively closer to their respective strikes. This is roughly equivalent to the case where 2*realised vol 5-year - (vol 2-year + vol 10-year) (its true, neither imply the other; high vol with a high degree of mean reversion means the rate never deviates too far from where it started, and its possible that a rate ends up far from where it started, while proving minimally volatile over a given period - e.g. imagine a large move upwards and then flatlining for the rest of the period). In any case, should the total appreciation of the bought straddles > total appreciation of sold straddles, then we can close the position (buy selling the 5-year straddle, and buying back the 2-year and 10-year ones) for a profit. Note that we want to buy back the sold straddles to eliminate the risk that they might be exercised, in which case we will be forced to enter into a swap (of course this might also prove profitable but for now we abstract from that possibility).  
 
-**Ali Lodhi**
