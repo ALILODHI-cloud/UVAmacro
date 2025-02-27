@@ -76,6 +76,7 @@ This model sees vast improvements upon the simple model from earlier (Figure 4).
 
 Future extensions will entail translating this fair-value model into trading signals that can support a simple relative-value strategy. I will also attempt backtesting of some sort. 
 
+
 **Ali Lodhi**
 
 
