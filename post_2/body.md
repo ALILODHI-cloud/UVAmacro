@@ -29,3 +29,6 @@ Under our framework, the month-to-2025-01-10 increase in term premium has a z-sc
 # Conclusion
 
 The current rise in yields has been driven principally by rising term premium. However, this increase appears insufficiently sharp as to trigger the 'equity downturn --> growth pessimism --> dovish policy-pricing' chain of events.  
+
+
+**Ali Lodhi**
