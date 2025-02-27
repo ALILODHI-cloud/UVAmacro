@@ -20,7 +20,7 @@ In this post, we evaluate the out-of-sample performance of that model, and then 
 
 **Section 1: Simple model performance** 
 
-Having fit\trained the simple model on the 2006 start-2014 start sample, Figure 1 displays its performance on the 2014 - 2016 sample. Performance, as can be seen, is very poor. 
+Having fit\trained the simple model on the 2006 start-2014 start sample, Figure 1 displays its performance on the start-2014 - start-2016 sample. Performance, as can be seen, is very poor. 
 
 ![Alt_text](figures/figure_1.jpg)
 
