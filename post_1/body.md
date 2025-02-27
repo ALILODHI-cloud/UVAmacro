@@ -29,3 +29,6 @@ This trade is executed by buying two ATM straddles on the 5-year rate, and selli
 
 So the best case for our butterfly trade is if the 5-year rate ends up wildly higher or lower, whereas the 2-year and 10-year end up relatively closer to their respective strikes. This is roughly equivalent to the case where 2*realised vol 5-year - (vol 2-year + vol 10-year) > 0 (its true, neither imply the other; high vol with a high degree of mean reversion entails a rate that never deviates too far from where it started, and its possible that a rate ends up far from where it started, while proving minimally volatile over a given period - e.g. imagine a large move upwards and then flatlining for the rest of the period). In any case, should the total appreciation of the bought straddles > total appreciation of sold straddles, then we can close the position (by selling the 5-year straddle, and buying back the 2-year and 10-year ones) for a profit. Note that we want to buy back the sold straddles to eliminate the risk they might be exercised, in which case we will be forced to enter into a swap (of course this might also prove profitable but for now we abstract from that possibility).  
 
+
+**Ali Lodhi**
+
