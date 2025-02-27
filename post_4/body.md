@@ -45,7 +45,7 @@ Figure 3 presents the first two components from a PCA on UST and OIS swap rate d
 
 We can proxy returns to the 6m2y vs 6m10y spread, over any given period, by -(realised vol 10yr swap rate - realised vol 2yr swap rate). Figure 5 looks at the distribution of this quantity over the 6 months following decreases in PC2 over different horizons. For instance, the blue bar in the 5-day horizon plot shows the distribution of returns following 5-day over 5-day decreases in PC2 that were between 1 and 2 2yr-rolling standard deviations (of 5-day changes) away from the 2yr-rolling mean (of 5-day changes). It is both the case that (1) 'large' shocks entail fatter right tails (that is, more upside to the trade); and (2) 'large' shocks entail higher mean returns. The intuition is that sharp decrease in PC2 --> relief-driven compression of distribution of outcomes around 10yr rate --> greater underperformance of 10yr realised vol vs 2yr realised vol. 
 
-![Alt_text](figures/figure_6.jpg)
+![Alt_text](figures/figure_5.jpg)
 
 
 
