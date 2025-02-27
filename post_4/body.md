@@ -54,6 +54,9 @@ We can proxy returns to the 6m2y vs 6m10y spread, over any given period, by -(re
 The Treasury QRFA and Bowman's remarks on deregulation are bearish for near-term 10yr vol but somewhat bullish for longer-term vol in that same rate. Also, both events are bullish for near-term 2yr vol. As such, buying a 6m2y straddle vs selling a 6m10y straddle is advisable. Historically the distribution of returns to this trade shifts up following waves of supply absorption\funding relief. 
 
 
+**Ali Lodhi**
+
+
 
 
 
