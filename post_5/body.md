@@ -41,6 +41,8 @@ Another consequence of mean reversion is that an investor can afford to delta-he
 A Fed-on-hold appears to entail a greater degree of mean reversion, which renders short-gamma positioning advisable. 
 
 
+**Ali Lodhi**
+
 
 
 
