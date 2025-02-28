@@ -1,9 +1,13 @@
 [View the code the generated this analysis (Python Juypter Notebooks)](https://github.com/ALILODHI-cloud/UVAmacro.github.io/blob/main/post_5/analysis.ipynb)
 
-
-
 # Derivative strategy for a Fed on hold: a hit straight to the Gamma
 
+
+> • A Fed 'on-hold' can be interpreted as a Fed that places the burden of proof on proponents of further cuts (vs a pro-active Fed, that places the burden of proof on proponents of inaction)
+>
+> • Historicaly, a Fed 'on-hold' has meant a greater degree of mean reversion (of rates), relative to when the Fed is more pro-active, and thus proven bearish for Gamma 
+
+\
 Today's FOMC meeting is thought to have ushered in a Fed 'on-hold'. But what does this mean? The following is one interpretation:
 
 **Regime 1 (pro-active Fed)** 'Show me a reason to stand pat; otherwise, I cut (or hike, if in a hiking cycle)' 
