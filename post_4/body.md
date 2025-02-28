@@ -4,9 +4,16 @@
 
 # Trading relative vol post Bowman and 2025 Q1 Treasury Refunding Announcement
 
-As has been well-documented, the past week saw a widening of swap spreads, with longer-tenor outperformance driving steepening across the spread curve. The catalyst was relief of spot supply/funding concerns afforded by the following events:
+> • The past week saw a widening of swap spreads, with longer-tenor outperformance driving steepening across the spread curve
+> 
+> • The Q1 Treasury QRFA and Governor Bowman's remarks on regulation drove relief of spot supply\funding concerns
+> 
+> • Historically, the distribution of returns to buying 2yr vol vs 10yr vol shifts upward following such episodes of relief 
 
-  1. At the Treasury QFA it was said that: "Treasury anticipates maintaining nominal coupon and FRN auction sizes for
+\
+As has been well-documented, the past week saw a widening of swap spreads, with longer-tenor outperformance driving steepening across the spread curve. The catalyst was relief of spot supply\funding concerns afforded by the following events:
+
+  1. At the Treasury QRFA it was said that: "Treasury anticipates maintaining nominal coupon and FRN auction sizes for
   at least the next several quarters." This was bullish relative to an anticipated terming-out.
 
   2. Governor Bowman said that: "Where we can take proactive regulatory measures to ensure that primary dealers have adequate balance sheet       capacity to intermediate Treasury markets, we should do so. This could include amending the leverage ratio and G-SIB surcharge regulations
