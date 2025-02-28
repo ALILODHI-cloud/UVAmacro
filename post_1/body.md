@@ -1,8 +1,18 @@
 [View the code that generated this analysis (Python Juypter Notebooks)](https://github.com/ALILODHI-cloud/UVAmacro.github.io/blob/main/post_1/analysis.ipynb)
 
+
 # Buying belly vol in a 2s5s10s butterfly swaption straddle as a way to position for policy uncertainty
 
-The 2-year treasury yield reflects near-term Fed pricing, whereas the 10-year treasury yield reflects both longer-term Fed pricing, and the premium commanded by duration risk. If indeed belly-rates - the 5-year rate, for instance - captures both these considerations, then periods of heightened policy should see realised volatility on the 5-year rate outperform that on the 2-year and 10-year ones (Figure 5; Figure 6). The intuition is that the 5-year rate is giving expression to two sources of uncertainty, whereas each of the 2-year and 10-year are doing this only for one. But why, per Figure 6, is this not a general phenomenon, obtaining also in environments characterised by 'low' and 'regular' degrees of policy uncertainty? After all, isn't the 5-year _always_ giving expression to near-term policy pricing considerations, and also to long-term policy pricing/term premium considerations? A possibility is that it is only doing each of these things in times of heightened uncertainty. For instance, near-term policy pricing uncertainty only ripples up into medium-term policy pricing uncertainty when there is a lot of it. The same can be argued for long-term policy pricing rippling down into the belly. As for long-term tp uncertainty: it's reasonable to think that it induces uncertainty around belly duration tp only where is a considerable amount of it.
+
+>• If the 5yr treasury yield reflects both short-run and long-run considerations, then, during times of heightened policy uncertainty, it should prove more volatile than the 2yr and 10yr yields
+>
+>• Using the realised volatility of the Fed Funds curve as a proxy for policy uncertainty, we show how that a 2s5s10s butterfly swaption straddle (buying two straddles on the 5 vs selling a straddle on each of the 2 and 10) outperforms during periods of heightened policy uncertainty, relative to periods with less such uncertainty
+
+
+
+
+\
+The 2-year treasury yield reflects near-term Fed pricing, whereas the 10-year treasury yield reflects both longer-term Fed pricing, and the premium commanded by duration risk. If indeed belly-rates - the 5-year rate, for instance - captures both these considerations, then periods of heightened policy should see realised volatility on the 5-year rate outperform that on the 2-year and 10-year ones (Figure 5; Figure 6). The intuition is that the 5-year rate is giving expression to two sources of uncertainty, whereas each of the 2-year and 10-year are doing this only for one. But why, per Figure 6, is this not a general phenomenon, obtaining also in environments characterised by 'low' and 'regular' degrees of policy uncertainty? After all, isn't the 5-year _always_ giving expression to near-term policy pricing considerations, and also to long-term policy pricing/term premium considerations? A possibility is that it is only doing each of these things in times of heightened uncertainty. For instance, near-term policy pricing uncertainty only ripples up into medium-term policy pricing uncertainty when there is a lot of it. The same can be argued for long-term policy pricing rippling down into the belly. As for long-term tp uncertainty: it's reasonable to think that it induces uncertainty around belly duration tp only when there is a considerable amount of it. 
 
 ![Alt_text](figures/figure1.jpg)
 
