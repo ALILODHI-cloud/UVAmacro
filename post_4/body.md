@@ -4,6 +4,8 @@
 
 # Trading relative vol post Bowman and 2025 Q1 Treasury Refunding Announcement
 
+> **Summary**
+> 
 > • The past week saw a widening of swap spreads, with longer-tenor outperformance driving steepening across the spread curve
 > 
 > • The Q1 Treasury QRFA and Governor Bowman's remarks on regulation drove relief of spot supply\funding concerns
