@@ -2,7 +2,8 @@
 
 # Derivative strategy for a Fed on hold: a hit straight to the Gamma
 
-
+> **Summary**
+> 
 > • A Fed 'on-hold' can be interpreted as a Fed that places the burden of proof on proponents of further cuts (vs a pro-active Fed, that places the burden of proof on proponents of inaction)
 >
 > • Historicaly, a Fed 'on-hold' has meant a greater degree of mean reversion (of rates), relative to when the Fed is more pro-active, and thus proven bearish for Gamma 
