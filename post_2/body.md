@@ -2,8 +2,10 @@
 
 > **Summary**
 > 
-> • The 10yr treasury yield is up around 100bp since the September FOMC, with an increase in term premium accounting for the bulk of this move 
-> • Historically, large increases in term premium have weighed on growth expectations, and thus nominal yields, via a negative feedback loop running through risk assets 
+> • The 10yr treasury yield is up around 100bp since the September FOMC, with an increase in term premium accounting for the bulk of this move
+> 
+> • Historically, large increases in term premium have weighed on growth expectations, and thus nominal yields, via a negative feedback loop running through risk assets
+> 
 > • By historical standards, the month-to-2025-1-10 increase in term premium is insufficiently large as to have weighed on growth expectations (at least to an extent that we can expect the present sell-off to abate soon)
 
 \
