@@ -10,7 +10,7 @@
 > 
 > • The Q1 Treasury QRFA and Governor Bowman's remarks on regulation drove relief of spot supply\funding concerns
 > 
-> • Historically, the distribution of returns to buying 2yr vol vs 10yr vol shifts upward following such episodes of relief 
+> • Historically, the distribution of returns to buying 2yr vol vs 10yr vol shifts upward following such reflief episodes 
 
 \
 As has been well-documented, the past week saw a widening of swap spreads, with longer-tenor outperformance driving steepening across the spread curve. The catalyst was relief of spot supply\funding concerns afforded by the following events:
@@ -36,7 +36,7 @@ Below we provide a primer on PCA.
 >
 ![Alt_text](figures/figure_1.jpg)
 >
->The orange arrows identify the most salient axes of variation in the data. In other words, most of the variance in our data is captured by the 'big X and Y - small X and Y' axis; the most common 'way' in which two observations differ from one another, is by one having a large X and Y, and the other having a small X and Y. Then, clearly, the second most common 'way' is that one observation has a large X and small Y, whereas the other has a small X and large Y — this is described by the shorter arrow, which captures a smaller proportion of the variance than the longer arrow. Finally, note that the identified axes of variation are simply linear combinations of variables X and Y, where the sign of the weights on each variable reflect whether increases in that variable are associated with movements up, or down, the corresponding axis.  
+>The orange arrows identify the most salient axes of variation in the data. In other words, most of the variation in our data is captured by the 'big X and Y - small X and Y' axis; the most common 'way' in which two observations differ from one another, is by one having a large X and Y, and the other having a small X and Y. Then, clearly, the second most common 'way' is that one observation has a large X and small Y, whereas the other has a small X and large Y — this is described by the shorter arrow, which captures a smaller proportion of the variance than the longer arrow. Finally, note that the identified axes of variation are simply linear combinations of variables X and Y, where the sign of the weights on each variable reflect whether increases in that variable are associated with movements up, or down, the corresponding axis.  
 >
 >Principal Component Analysis (PCA) leverages a technique called 'Eigenvalue Decomposition' to identify arrows like the orange ones – that is, the major axes of variation in a given set of data. Consider Figure 2, for instance, which gives the output of a PCA decomposition on yield-level data. 'PC1', or the first 'principal component', is the axis that captures most of the variation in the data. The weight ('loading') on all variables is positive, indicating that PC1 captures the variation that occurs due to some observations having across-the-board high yields, and others having across-the-board low yields. Thus we can term PC1 the 'level' component of our data. Looking next at PC2, we find that short and long-tenor yields are inversely-signed, indicating that this component has captured the variation ascribable to differences in the slope of the yield curve. Hence, PC2 is a 'slope' component. Similiar reasoning establishes that PC3 is best described as a 'curvature' component. 
 >
@@ -46,7 +46,7 @@ Below we provide a primer on PCA.
 
 ## PCA and swap spreads 
 
-Figure 3 presents the first two components from a PCA on UST and OIS swap rate data. The first component is a level component. The second component, on the other hand, is a swap spread component. Note that larger values of that component are associated with narrower swap spreads, whereas smaller values with wider ones. Additionally, it can be observed that (10yr_OIS_swap loading - 10yr_yield loading) > (7yr_OIS_swap loading - 7yr_yield loading) > (5yr_OIS_swap loading - 5yr_yield loading) and so forth. This means that increases in PC2 are also associated with flattening of the swap spread curve (longer tenors narrow more than shorter ones). Therefore, increases in PC2 can effectively be interpreted as increases in pessimism around spot supply absorption/funding issues; decreases can be interpreted as increases in optimism (Figure 4).
+Figure 3 presents the first two components from a PCA decomposition on UST and OIS swap rate data. The first component is a level component. The second component, on the other hand, is a swap spread component. Note that larger values of that component are associated with narrower swap spreads, whereas smaller values with wider ones. Additionally, it can be observed that (10yr_OIS_swap loading - 10yr_yield loading) > (7yr_OIS_swap loading - 7yr_yield loading) > (5yr_OIS_swap loading - 5yr_yield loading) and so forth. This means that increases in PC2 are also associated with flattening of the swap spread curve (longer tenors narrow more than shorter ones). Therefore, increases in PC2 can effectively be interpreted as increases in pessimism around spot supply absorption/funding issues; decreases can be interpreted as increases in optimism (Figure 4).
 
 ![Alt_text](figures/figure_3.jpg)
 
