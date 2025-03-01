@@ -9,6 +9,9 @@
   </script>
 </head>
 
+
+> **Summary**
+> 
 >• The simple fair value model of the 2s10s curve assumed in prior posts (including the 1y1y OIS rate, 5y5y breakeven rate and Fed balance sheet as share of US GDP) performs very poorly out-of-sample
 >
 >• Choosing variables instead through the feature utility metric 'mutual information' (applied to a dataset of 60+ market-based variables) results in significant improvements 
