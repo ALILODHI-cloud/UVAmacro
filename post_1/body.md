@@ -4,9 +4,9 @@
 # Buying belly vol in a 2s5s10s butterfly swaption straddle as a way to position for policy uncertainty
 
 
->• If the 5yr treasury yield reflects both short-run and long-run considerations, then, during times of heightened policy uncertainty, it should prove more volatile than the 2yr and 10yr yields
+>**Summary**
 >
->• Using the realised volatility of the Fed Funds curve as a proxy for policy uncertainty, we show how that a 2s5s10s butterfly swaption straddle (buying two straddles on the 5 vs selling a straddle on each of the 2 and 10) outperforms during periods of heightened policy uncertainty, relative to periods with less such uncertainty
+> Historically, the 2s5s10s butterfly swaption straddle (buying two straddles on the 5 vs selling a straddle on each of the 2 and 10) outperforms during periods of heightened policy uncertainty, relative to periods with less such uncertainty. The realised volatility of the Fed Funds curve is used as a proxy for policy uncertainty. 
 
 
 
