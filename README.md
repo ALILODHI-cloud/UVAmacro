@@ -1,9 +1,9 @@
 
 
-<h1>Fixed Income Insights @ UVA Economics</h1>
+<h1>Fixed Income Insights</h1>
 
 
-By Ali Lodhi (Research Associate in the Department of Economics).
+By Ali Lodhi.
 
 ## Latest Posts:
 
